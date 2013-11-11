@@ -13,11 +13,11 @@ Il est possible de directement "d'heriter" (extends) d'**App**. Cela trasformera
 Compilation
 -----------
 
-$ scala fichier.scala
+    $ scala fichier.scala
 
 Pour indiquer le dossier ou les fichies compiles seront mis.
 
-$ scala -d dossier-de-sortie fichier.scala
+    $ scala -d dossier-de-sortie fichier.scala
 
 
 Execution
@@ -25,7 +25,7 @@ Execution
 
 Une fois le code compiler il peut etre lance avec 
 
-$ scala NomDeLaClass
+    $ scala NomDeLaClass
 
 Script
 ------
@@ -34,13 +34,11 @@ Il est possible d'ecrire du code sclal directement dans un fichier script
 
 Commencer par 
 
-#!/bin/sh
-exec scala "$0" "$@"
-!#
+    #!/bin/sh
+    exec scala "$0" "$@"
+    !#
 
-.
-.
-... Code scala.
+    ... Code scala.
 
 
 
